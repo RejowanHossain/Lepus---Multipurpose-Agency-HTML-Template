@@ -80,7 +80,7 @@ a:active,
 a:hover {
     text-decoration: none;
     outline: none;
-    color: #fff;
+    color: #FF6036;
 }
 
 input:focus,
@@ -212,6 +212,7 @@ p {
     color: #223645;
     font-size: 30px;
     font-weight: 600;
+    line-height: 140%;
 }
 .section-title p{
     font-size: 14px;
@@ -232,14 +233,15 @@ p {
     right: 32px;
     z-index: 999;
     color: #fff;
-    background: #0D7DFC;
+    background: #FF6036;
     text-align: center;
     cursor: pointer;
     display: none;
+    border-radius: 50%;
 }
 
 .top-btn:hover {
-    color: #031031;
+    color: #fff;
     transition: all 0.4s linear;
 
 }
@@ -491,7 +493,7 @@ p {
 .hero{
     background: url('../images/HeroGradient.png') no-repeat top center;
     background-size: cover;
-    padding: 200px 0;
+    padding: 200px 0 68px;
     position: relative;
 }
 .hero-content{
@@ -537,6 +539,7 @@ p {
 .feature{
     background: url('../images/feature-bg.png') no-repeat top center;
     background-size: cover;
+    margin: 68px 0;
 }
 .feature .section-title{
     text-align: center;
@@ -593,4 +596,218 @@ p {
 }
 .single-feature:hover a iconify-icon{
     margin-left: 20px;
+}
+
+/*-------------------------------------------------------------------------------------
+    showcase area
+---------------------------------------------------------------------------------------*/
+.showcase{
+    background: url('../images/showcase-bg.png') no-repeat center center;
+    background-size: contain;
+    padding: 68px 0;
+}
+.showcase .section-title{
+    margin-bottom: 39px;
+}
+.single-showcase{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    -webkit-box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    -moz-box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    padding: 51px 30px;
+}
+.single-showcase.highlight{
+    border-left: 4px solid #FF6036;
+}
+.single-showcase h5{
+    color: #223645;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.single-showcase p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+}
+.showcase .mt-17{
+    margin-top: 17px;
+}
+.showcase .mt-30{
+    margin-top: 30px;
+}
+.video{
+    margin-right: -15%;
+    position: relative;
+}
+.video img{
+    width: 100%;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.showcase .mt-section{
+    margin-top: -15%;
+}
+.video::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #223645;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    opacity: .5;
+}
+.pulse{
+    position: absolute;
+    background: #fff;
+    color: #FF6036;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-animation: video-pulse-presentation 2s linear infinite;
+    animation: video-pulse-presentation 2s linear infinite;
+    transition: .3s linear all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 41%;
+    left: 57%;
+}
+.pulse:hover svg{
+    color: #FF6036;
+}
+
+@-webkit-keyframes video-pulse-presentation {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 70%), 0 0 0 0 rgb(19 173 229 / 70%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 70%), 0 0 0 0 rgb(19 173 229 / 70%);
+    }
+
+    40% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 0 rgb(19 173 229 / 70%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 0 rgb(19 173 229 / 70%);
+    }
+
+    80% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+    }
+}
+
+@keyframes video-pulse-presentation {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 70%), 0 0 0 0 rgb(19 173 229 / 70%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 70%), 0 0 0 0 rgb(19 173 229 / 70%);
+    }
+
+    40% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 0 rgb(19 173 229 / 70%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 0 rgb(19 173 229 / 70%);
+    }
+
+    80% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+        box-shadow: 0 0 0 0 rgb(19 173 229 / 0%), 0 0 0 30px rgb(19 173 229 / 0%);
+    }
+}
+
+/*-------------------------------------------------------------------------------------
+    case study area
+---------------------------------------------------------------------------------------*/
+.case-studies{
+    background: url('../images/case-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 68px 0;
+}
+.case-studies .section-title{
+    margin-bottom: 0;
+}
+.case-studies .section-title p{
+    padding-right: 38%;
+}
+.tabs-wrapper{
+    display: flex;
+    justify-content: end;
+}
+.tabs-wrapper button{
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #223645;
+    margin-right: 25px;
+}
+.tabs-wrapper button:last-child{
+    margin-right: 0;
+}
+.tabs-wrapper button.active{
+    background: #FF6036;
+    color: #fff;
+    height: 53px;
+    width: 53px;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.single-case{
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    -webkit-box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    -moz-box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    padding: 21px;
+    transition: .3s linear all;
+}
+.single-case:hover a{
+    color: #FF6036;
+}
+.single-case:hover iconify-icon{
+    color: #FF6036;
+}
+.case-studies .mt-65{
+    margin-top: 65px;
+}
+.case-icon iconify-icon{
+    transition: .3s linear all;
+}
+.case-studies .mt-30{
+    margin-top: 30px;
+}
+.case-img img{
+    width: 100%;
+}
+.case-content{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.case-meta p{
+    font-size: 14px;
+    color: #223645;
+    text-transform: lowercase;
+}
+.case-meta a{
+    font-size: 20px;
+    color: #223645;
+    font-weight: 600;
 }
