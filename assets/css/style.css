@@ -1,0 +1,514 @@
+/*----------------------------------------------------------------------------------
+Project     :  Lepus - Multipurpose Agency Template
+-------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------
+[Table of contents]
+default css
+topbar area
+header area
+hero area
+about area
+services area
+counter area
+why choose us area
+protfolio area
+newsletter area
+team area
+testimonials area
+faq area
+blog area
+footer area
+--------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------
+    default css
+---------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap');
+
+/*-------------------------------------------------------------------------------------
+    font-face css
+---------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Font Awesome\ 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.eot);
+    src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}
+
+@font-face {
+    font-family: 'Font Awesome\ 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-regular-400.eot);
+    src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-regular-400.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-regular-400.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-regular-400.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-regular-400.svg#fontawesome) format("svg")
+}
+
+@font-face {
+    font-family: 'Font Awesome\ 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.eot);
+    src: url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.woff2) format("woff2"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.woff) format("woff"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.ttf) format("truetype"), url(https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-solid-900.svg#fontawesome) format("svg")
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:focus,
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff;
+}
+
+ ::-webkit-input-placeholder {
+    /* Edge */
+    font-family: 'Rubik', sans-serif;
+    color: #647589;
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-family: 'Rubik', sans-serif;
+    color: #647589;
+}
+
+ ::placeholder {
+    font-family: 'Rubik', sans-serif;
+    color: #647589;
+    font-size: 14px;
+}
+
+a,
+button, .button {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+a {
+    color: #031031;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #647589;
+    margin-bottom: 0;
+    line-height: 190%;
+    font-family: 'Inter', sans-serif;
+}
+
+ ::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #0D7DFC;
+}
+
+.button {
+    padding: 16px 33px;
+    background: #FF6036;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0px 5px 13px -4px rgba(255,96,54,0.75);
+    -webkit-box-shadow: 0px 5px 13px -4px rgba(255,96,54,0.75);
+    -moz-box-shadow: 0px 5px 13px -4px rgba(255,96,54,0.75);
+}
+
+.button:hover {
+    background: #ff724b;
+}
+
+.button a {
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.button a:hover {
+    color: #fff;
+}
+
+.button svg {
+    margin-left: 4px;
+    font-size: 14px;
+}
+/*-------------------------------------------------------------------------------------
+    back to top button
+---------------------------------------------------------------------------------------*/
+
+.top-btn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 52px;
+    font-size: 25px;
+    bottom: 32px;
+    right: 32px;
+    z-index: 999;
+    color: #fff;
+    background: #0D7DFC;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+.top-btn:hover {
+    color: #031031;
+    transition: all 0.4s linear;
+
+}
+
+/*-------------------------------------------------------------------------------------
+    preloader
+---------------------------------------------------------------------------------------*/
+
+#loading {
+    background-color: #0D7DFC;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    margin-top: 0px;
+    top: 0px;
+}
+
+#loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.object {
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    border-top: 5px solid #FFF;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #FFF;
+    border-right: 5px solid transparent;
+    -webkit-animation: animate 2s infinite;
+    animation: animate 2s infinite;
+}
+
+#object_one {
+    left: 75px;
+    top: 75px;
+    width: 50px;
+    height: 50px;
+}
+
+#object_two {
+    left: 65px;
+    top: 65px;
+    width: 70px;
+    height: 70px;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+#object_three {
+    left: 55px;
+    top: 55px;
+    width: 90px;
+    height: 90px;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+#object_four {
+    left: 45px;
+    top: 45px;
+    width: 110px;
+    height: 110px;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+@-webkit-keyframes animate {
+    50% {
+        -ms-transform: rotate(360deg) scale(0.8);
+        -webkit-transform: rotate(360deg) scale(0.8);
+        transform: rotate(360deg) scale(0.8);
+    }
+}
+
+@keyframes animate {
+    50% {
+        -ms-transform: rotate(360deg) scale(0.8);
+        -webkit-transform: rotate(360deg) scale(0.8);
+        transform: rotate(360deg) scale(0.8);
+    }
+}
+
+/*-------------------------------------------------------------------------------------
+    header area
+---------------------------------------------------------------------------------------*/
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.main-menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu ul li {
+    margin-left: 46px;
+    position: relative;
+}
+.main-menu ul li:first-child{
+    margin-left: 0;
+}
+
+.main-menu ul li a {
+    padding: 40px 0;
+    text-transform: capitalize;
+    color: #223645;
+    font-weight: 500;
+    font-size: 15px;
+}
+.main-menu ul li.header-cta a{
+    color: #fff;
+}
+.main-menu ul li:hover>a{
+    color: #FF6036;
+}
+
+.main-menu ul .header-cta:hover>a {
+    color: #fff;
+}
+
+.main-menu ul li ul.submenu{
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    width: 230px;
+    top: 110%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px 0;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    border-top: 5px solid #FF6036;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+    z-index: 99;
+}
+
+.main-menu ul li ul.submenu li{
+    margin: 0;
+    display: block;
+}
+
+.main-menu ul li ul.submenu li a {
+    padding: 7px 30px;
+}
+
+.main-menu ul li:hover ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.main-menu ul li ul.submenu li a::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #FF6036;
+    position: absolute;
+    left: 27px;
+    top: 48%;
+    -webkit-transform: none;
+    transform: none;
+    margin-top: -1px;
+    opacity: 0;
+    -webkit-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+.main-menu ul li ul.submenu li a:hover {
+    padding-left: 50px;
+}
+
+.main-menu ul li ul.submenu li:hover a:before {
+    opacity: 1;
+    width: 15px;
+}
+
+.main-menu ul .header-cta {
+    margin-left: 80px;
+}
+
+.main-menu ul .header-cta a {
+    padding: 0;
+}
+
+.main-menu ul .header-cta a:hover {
+    color: #fff;
+}
+
+.main-menu ul .user-cta,
+.home-two-header-bg .user-cta svg {
+    margin-left: 35px;
+}
+
+.main-menu ul .user-cta svg,
+.home-two-header-bg .user-cta svg {
+    font-size: 16px;
+}
+
+.main-menu ul .user-cta a {
+    padding: 0;
+}
+
+.main-menu ul li.user-cta ul.submenus li{
+    margin-left: 0;
+}
+.main-menu ul li.hamburger{
+    margin-left: 30px;
+}
+.hamburger{
+    background-color: #FF6036;
+    cursor: pointer;
+}
+.hamburger iconify-icon{
+    color: #fff;
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------------------------------------------------------------
+    hero area
+---------------------------------------------------------------------------------------*/
+.hero{
+    background: url('../images/HeroGradient.png') no-repeat top center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+}
+.hero-content{
+    text-align: center;
+}
+.hero-content h1{
+    color: #223645;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.hero-content h1 span{
+    display: block;
+    position: relative;
+    z-index: 999;
+}
+.hero-content h1 span::before{
+    content: '';
+    position: absolute;
+    left: 48%;
+    top: 12%;   
+    height: 50px;
+    width: 100px;
+    background: #FED0C3;
+    z-index: -1;
+}
+.hero-content p{
+    text-align: center;
+    padding: 0 75px;
+    margin: 22px 24px;
+}
+.hero-img{
+    margin-top: 52px;
+}
+.hero-img img{
+    width: 100%;
+}
