@@ -200,6 +200,24 @@ p {
     margin-left: 4px;
     font-size: 14px;
 }
+.section-title{
+    margin-bottom: 65px;
+}
+.section-title h5{
+    color: #FF6036;
+    font-size: 16px;
+    font-weight: 700;
+}
+.section-title h2{
+    color: #223645;
+    font-size: 30px;
+    font-weight: 600;
+}
+.section-title p{
+    font-size: 14px;
+    line-height: 180%;
+    margin-top: 10px;
+}
 /*-------------------------------------------------------------------------------------
     back to top button
 ---------------------------------------------------------------------------------------*/
@@ -511,4 +529,68 @@ p {
 }
 .hero-img img{
     width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------
+    feaature area
+---------------------------------------------------------------------------------------*/
+.feature{
+    background: url('../images/feature-bg.png') no-repeat top center;
+    background-size: cover;
+}
+.feature .section-title{
+    text-align: center;
+}
+.feature .mt{
+    margin-top: 51px;
+}
+.single-feature{
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    -webkit-box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    -moz-box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    border-radius: 12px;
+    padding: 51px 31px;
+    background: #fff;
+}
+.single-feature .icon{
+    background: #FFEAE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.single-feature .icon iconify-icon{
+    color: #FF6036;
+    font-size: 25px;
+}
+.single-feature h5{
+    color: #223645;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.single-feature p{
+    font-size: 15px;
+    line-height: 190%;
+    margin-bottom: 25px;
+}
+.single-feature a{
+    color: #FF6036;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+.single-feature a iconify-icon{
+    margin-left: 12px;
+    font-size: 25px;
+    transition: .3s linear all;
+}
+.single-feature:hover a iconify-icon{
+    margin-left: 20px;
 }
