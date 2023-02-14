@@ -1,22 +1,27 @@
 (function ($) {
     "use strict";
     $(document).ready(function () {
+
+        $('.tabs-wrapper ul button').click(function(){
+            $('button').removeClass("active");
+            $(this).addClass("active");
+        });
         /*---------------------------------------------------
             Isotop filter course 
         ----------------------------------------------------*/
 
 
 
-        $("#cta-input").click(function(){
-            $("#show-hide-submenu").toggleClass('show-input');
-        });
+        // $("#cta-input").click(function(){
+        //     $("#show-hide-submenu").toggleClass('show-input');
+        // });
 
         // init Isotope
         var $grid = $('.port-filter').isotope({
             // options
         });
         // filter items on button click
-        $('.tab-btn-wrapper').on( 'click', 'button', function() {
+        $('.tabs-wrapper').on( 'click', 'button', function() {
             var filterValue = $(this).attr('data-filter');
             $grid.isotope({ filter: filterValue });
         });
@@ -190,12 +195,12 @@
             testimonial carousel
         ----------------------------------------------------*/
         $('.testimonial-slider').slick({
-            dots: false,
+            dots: true,
             infinite: true,
-            arrows: true,
+            arrows: false,
             prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
             nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             speed: 500,
             slidesToShow: 1,
@@ -213,7 +218,7 @@
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: false
                 }

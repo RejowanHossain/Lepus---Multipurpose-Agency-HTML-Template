@@ -541,7 +541,8 @@ p {
     background-size: cover;
     margin: 68px 0;
 }
-.feature .section-title{
+.feature .section-title,
+.pricing .section-title{
     text-align: center;
 }
 .feature .mt{
@@ -753,7 +754,7 @@ p {
     background: none;
     border: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     color: #223645;
     margin-right: 25px;
 }
@@ -763,10 +764,8 @@ p {
 .tabs-wrapper button.active{
     background: #FF6036;
     color: #fff;
-    height: 53px;
-    width: 53px;
+    padding: 15px;
     border-radius: 15px;
-    font-weight: 600;
 }
 .single-case{
     background: #fff;
@@ -789,8 +788,8 @@ p {
 .case-icon iconify-icon{
     transition: .3s linear all;
 }
-.case-studies .mt-30{
-    margin-top: 30px;
+.case-studies .mb-30{
+    margin-bottom: 30px;
 }
 .case-img img{
     width: 100%;
@@ -810,4 +809,157 @@ p {
     font-size: 20px;
     color: #223645;
     font-weight: 600;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    testimonial area
+---------------------------------------------------------------------------------------*/
+.testimonial{
+    margin: 68px 0;
+}
+.testimonial .testi-meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial .client-info{
+    display: flex;
+    align-items: center;
+}
+.testimonial .name{
+    margin-left: 24px;
+}
+.testimonial .name h5{
+    color: #223645;
+    font-size: 22px;
+    font-weight: 600;
+}
+.testimonial .name p{
+    color: #FF6036;
+    font-size: 16px;
+    font-weight: 500;
+}
+.testimonial .p-r-25{
+    padding: 0 25px;
+}
+.testi-meta .review{
+    color: #FF6036;
+}
+.testi-wrapper .testi-text{
+    margin: 20px 0 47px;
+}
+ul.slick-dots{
+    display: flex;
+}
+ul.slick-dots li{
+    margin-right: 10px;
+}
+ul.slick-dots li.slick-active > button{
+    width: 40px;
+    border-radius: 20px;
+    background: #FF6036;
+}
+ul.slick-dots li button{
+    border: none;
+    width: 12px;
+    height: 12px;
+    background: #bbc5cf;
+    border-radius: 50%;
+}
+.slick-dots li button {
+    text-indent: -9999px;
+ }
+
+ /*-------------------------------------------------------------------------------------
+    pricing area
+---------------------------------------------------------------------------------------*/
+.pricing .section-title p{
+    padding: 0 10%;
+}
+.single-price{
+    background: #fff;
+    padding: 46px 35px;
+}
+.single-price h5{
+    font-size: 25px;
+    color: #223645;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.single-price h3{
+    color: #FF6036;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 21px;
+    border-bottom: 1px solid rgba(100, 117, 137, .3);
+}
+.single-price h3 span{
+    font-size: 15px;
+    color: #223645;
+    font-weight: 500;
+}
+.price-list{
+    margin-top: 21px;
+}
+.price-list ul li{
+    display: flex;
+    align-items: center;
+}
+.price-list ul li{
+    margin-bottom: 25px;
+}
+.price-list ul li:last-child{
+    margin-bottom: 0;
+}
+.price-list ul li iconify-icon{
+    background: #FDE5DE;
+    color: #FF6036;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    width: 22px;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 13px;
+}
+.price-btn{
+    padding: 15px 83px;
+    border: 1px solid #FF6036;
+    background: transparent;
+    box-shadow: none;
+    margin-top: 46px;
+}
+.price-btn:hover a{
+    color: #fff;
+}
+.price-btn a{
+    font-size: 14px;
+    color: #223645;
+}
+
+.single-price.active{
+    background: #223645;
+    border-radius: 14px;
+}
+.single-price.active h5,
+.single-price.active h3,
+.single-price.active span{
+    color: #fff;
+}
+
+.single-price.active .price-list ul li iconify-icon{
+    background: #FF6036;
+    color: #fff;
+}
+
+.single-price.active .price-list ul li p{
+    color: #fff;
+}
+.single-price.active .price-btn{
+    background: #FF6036;
+    border: none;
+}
+.single-price.active .price-btn a{
+    color: #fff;
 }
