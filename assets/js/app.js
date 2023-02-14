@@ -27,7 +27,7 @@
         });
         
 
-        $(".progress-bar").loading();
+        // $(".progress-bar").loading();
 
 
         $('.popup-hero').magnificPopup({
@@ -40,17 +40,17 @@
         });
 
         // hero slider
-        $('.active-slider').slick({
-            dots: false,
-            arrows: true,
-            infinite: true,
-            speed: 300,
-            autoplay: true,
-            fade: true,
-            cssEase: 'linear',
-            prevArrow: '<button type="button" class="slick-prev slick-arrow"><i class="fas fa-arrow-right"></i></button>',
-            nextArrow: '<button type="button" class="slick-next slick-arrow"><i class="fas fa-arrow-left"></i></button>'
-        });
+        // $('.active-slider').slick({
+        //     dots: false,
+        //     arrows: true,
+        //     infinite: true,
+        //     speed: 300,
+        //     autoplay: true,
+        //     fade: true,
+        //     cssEase: 'linear',
+        //     prevArrow: '<button type="button" class="slick-prev slick-arrow"><i class="fas fa-arrow-right"></i></button>',
+        //     nextArrow: '<button type="button" class="slick-next slick-arrow"><i class="fas fa-arrow-left"></i></button>'
+        // });
 
 
         /*---------------------------------------------------
@@ -66,6 +66,66 @@
             meanScreenWidth: "1199"
         });
 
+         /*---------------------------------------------------
+            home 1 brand carousel
+        ----------------------------------------------------*/
+        $('.brand-slider').slick({
+            dots: false,
+            infinite: true,
+            arrows: true,
+            prevArrow: "",
+            nextArrow: "",
+            autoplay: true,
+            autoplaySpeed: 2000,
+            speed: 500,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 1060,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 950,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
 
         /*---------------------------------------------------
             portfolio slider
@@ -200,7 +260,7 @@
             arrows: false,
             prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
             nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed: 2000,
             speed: 500,
             slidesToShow: 1,
