@@ -1244,3 +1244,52 @@ ul.slick-dots li button{
     display: flex;
     justify-content: end;
 }
+
+/* ####################### */
+/* The side navigation menu */
+.sidenav {
+    height: 100%; 
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0; 
+    right: 0;
+    background-color: #FF6036; 
+    overflow-x: hidden;
+    padding-top: 60px; 
+    transition: .3s linear all;
+    
+}
+.sidenav .widget-1,
+.sidenav .widget-2{
+    padding: 0 35px;
+}
+
+.sidenav .widget-1 p{
+    color: #fff;
+}
+.sidenav .social-icons ul li a iconify-icon{
+    color: #fff;
+}
+.sidenav .widget-2{
+    margin-top: 80px;
+}
+.sidenav .widget-2 h6{
+    color: #fff;
+}
+.sidenav .widget-2 ul li a{
+    color: #fff;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #fff;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

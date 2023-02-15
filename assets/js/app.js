@@ -10,8 +10,6 @@
             Isotop filter course 
         ----------------------------------------------------*/
 
-
-
         // $("#cta-input").click(function(){
         //     $("#show-hide-submenu").toggleClass('show-input');
         // });
@@ -731,6 +729,21 @@
             srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
         }
     });
+
+    // For opening and closing the sidenav
+
+    $("#openNav").on( 'click', function() {
+         $("#mySidenav").css("width", "350px");
+        $("body").css("overflowY", "hidden");
+
+    });
+
+    $("#closeNav").on( 'click', function() {
+        $("#mySidenav").css("width", "0px");
+        $("body").css("overflowY", "visible");
+   });
+    
+   
 
     /*---------------------------------------------------
         nice select

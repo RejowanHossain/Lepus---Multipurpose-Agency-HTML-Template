@@ -10,6 +10,110 @@
 /* normal desktop */
 
 @media (min-width: 992px) and (max-width: 1200px) {
+    .mean-container .mean-nav ul li:last-child{
+        display: none;
+    }
+    .section-title h2{
+        font-size: 28px;
+    }
+    .hero {
+        padding: 200px 0 50px;
+    }
+    .hero-content h1{
+        font-size: 40px;
+    }
+    .hero-content p{
+        padding: 0;
+    }
+    .feature{
+        margin: 50px 0;
+    }
+    .showcase{
+        padding: 50px 0;
+        background: none;
+    }
+    .single-showcase h5{
+        font-size: 18px;
+    }
+    /* .single-showcase {
+        padding: 30px;
+    } */
+    .showcase .section-title{
+        margin-bottom: 65px;
+    }
+    .md-full{
+        width: 100%;
+    }
+    .md-none{
+        display: none;
+    }
+    .showcase{
+        display: none;
+    }
+    .showcase .mt-17{
+        margin-top: 0;
+    }
+    .showcase .mt-30{
+        margin-top: 0;
+    }
+    .video{
+        display: none;
+    }
+    .pulse{
+        display: none;
+    }
+    .tabs-wrapper button {
+        font-size: 13px;
+        margin-right: 15px;
+    }
+    .case-studies .section-title p {
+        padding-right: 25%;
+    }
+    .case-studies {
+        padding: 50px 0;
+    }
+    .testimonial {
+        margin: 50px 0;
+    }
+    .testi-img img{
+        width: 100%;
+    }
+    .price-btn {
+        padding: 17px 50px;
+    }
+    .pricing{
+        padding: 50px 0;
+    }
+    .counter,.brands, .blogs{
+        padding: 50px 0;
+    }
+    .single-counter p {
+        font-size: 13px;
+    }
+    .contacts{
+        margin: 50px 0;
+    }
+    .contacts form input {
+        width: 233px;
+    }
+    .contacts form textarea {
+        width: 494px;
+    }
+    .contacts .contact-info ul li {
+        margin-left: 0;
+    }
+    .blog-content p:last-child{
+        display: none;
+    }
+    .newsletter{
+        margin: 50px 0;
+    }
+    .newsletter form input {
+        width: 95%;
+    }
+    .footer-links ul li a {
+        font-size: 13px;
+    }
     .site-logo{
         margin-top: 35px;
     }
@@ -56,9 +160,6 @@
     .team-images .overlay{
         width: 90%;
     }
-    .video{
-        margin-top: -32%;
-    }
     .blog-img img{
         width: 100%;
     }
@@ -68,9 +169,6 @@
     }
     .blog-wrapper .date {
         bottom: 42%;
-    }
-    .blog-content a{
-        font-size: 12px;
     }
 
     /* service details page */
