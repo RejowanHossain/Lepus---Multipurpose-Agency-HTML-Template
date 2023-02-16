@@ -74,12 +74,16 @@
     }
     .testi-img img{
         width: 100%;
+        border-radius: 15px;
     }
     .price-btn {
         padding: 17px 50px;
     }
     .pricing{
         padding: 50px 0;
+    }
+    .single-price .price-list ul li p{
+        font-size: 14px;
     }
     .counter,.brands, .blogs{
         padding: 50px 0;
@@ -91,10 +95,10 @@
         margin: 50px 0;
     }
     .contacts form input {
-        width: 233px;
+        width: 274px;
     }
     .contacts form textarea {
-        width: 494px;
+        width: 596px;
     }
     .contacts .contact-info ul li {
         margin-left: 0;
@@ -123,8 +127,34 @@
     .mean-bar{
         top: 15px;
     }
-    
+
+    /*************** 
+        inner page 
+    ****************/
+    .hero-area{
+        padding: 120px 0;
+    }
+    .inner-hero-text h2{
+        font-size: 30px;
+    }
+    .inner-hero-text span a {
+        font-size: 12px;
+    }
+
+     /*************** 
+        Service Details page 
+    ****************/
+    .service-details {
+        padding: 50px 0;
+    }
+    .responsive-none{
+        display: none;
+    }
+    .service-details .service-list-wrapper .list p{
+        font-size: 14px;
+    }
  
+    
 }
 
 
@@ -196,12 +226,16 @@
     }
     .testi-img img{
         width: 100%;
+        border-radius: 15px;
     }
     .price-btn {
         padding: 17px 50px;
     }
     .pricing{
         padding: 50px 0;
+    }
+    .single-price .price-list ul li p{
+        font-size: 14px;
     }
     .counter .section-title{
         text-align: center;
@@ -260,6 +294,32 @@
     }
     .mean-bar{
         top: 15px;
+    }
+
+    /*************** 
+        inner page 
+    ****************/
+    .hero-area{
+        padding: 120px 0;
+    }
+    .inner-hero-text h2{
+        font-size: 30px;
+    }
+    .inner-hero-text span a {
+        font-size: 12px;
+    }
+
+    /*************** 
+        Service Details page 
+    ****************/
+    .service-details {
+        padding: 50px 0;
+    }
+    .responsive-none{
+        display: none;
+    }
+    .service-details .service-list-wrapper .list p{
+        font-size: 14px;
     }
     
 }
@@ -347,6 +407,7 @@
     }
     .testi-img img{
         width: 100%;
+        border-radius: 15px;
     }
     .price-btn {
         padding: 17px 50px;
@@ -540,8 +601,19 @@
         padding: 0;
     }
     .tabs-wrapper button {
-        font-size: 13px;
+        font-size: 15px;
         margin-right: 15px;
+    }
+    .tabs-wrapper ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .tabs-wrapper button{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .tabs-wrapper .button:last-child{
+        margin-bottom: 0;
     }
     .case-studies {
         padding: 50px 0;
@@ -558,6 +630,7 @@
     }
     .testi-img img{
         width: 100%;
+        border-radius: 15px;
     }
     .price-btn {
         padding: 17px 50px;
@@ -1048,6 +1121,38 @@
     .home-3-blg .blog-wrapper .blg-meta {
         bottom: 42%;
     }
+
+    /*************** 
+        inner page 
+    ****************/
+    .hero-area{
+        padding: 120px 0;
+    }
+    .inner-hero-text h2{
+        font-size: 30px;
+    }
+    .inner-hero-text span a {
+        font-size: 12px;
+    }
+
+    /*************** 
+        Service Details page 
+    ****************/
+    .service-details {
+        padding: 50px 0;
+    }
+    .responsive-none{
+        display: none;
+    }
+    .service-details .service-list-wrapper .list p{
+        font-size: 14px;
+    }
+    .service-details .service-list-wrapper .responsive-bottom-30{
+        margin-bottom: 30px;
+    }
+    .service-details .service-quote{
+        padding: 30px;
+    }
 }
 
 
@@ -1122,6 +1227,7 @@
     }
     .testi-img img{
         width: 100%;
+        border-radius: 15px;
     }
     .price-btn {
         padding: 17px 50px;
@@ -1191,5 +1297,37 @@
     }
     .mean-bar{
         top: 15px;
+    }
+
+    /*************** 
+        inner page 
+    ****************/
+    .hero-area{
+        padding: 120px 0;
+    }
+    .inner-hero-text h2{
+        font-size: 30px;
+    }
+    .inner-hero-text span a {
+        font-size: 12px;
+    }
+
+    /*************** 
+        Service Details page 
+    ****************/
+    .service-details {
+        padding: 50px 0;
+    }
+    .responsive-none{
+        display: none;
+    }
+    .service-details .service-list-wrapper .list p{
+        font-size: 14px;
+    }
+    .service-details .service-list-wrapper .responsive-bottom-30{
+        margin-bottom: 30px;
+    }
+    .service-details .service-quote{
+        padding: 20px;
     }
 }
