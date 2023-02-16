@@ -1775,3 +1775,182 @@ ul.slick-dots li button{
     padding: 15px 33px;
     margin-top: 35px;
 }
+
+
+ /*-------------------------------------------------------------------------------------
+    Contact Page
+---------------------------------------------------------------------------------------*/
+.contact-page-hero{
+    margin-bottom: 136px;
+}
+.contacts.no-margin{
+    margin-bottom: 0;
+}
+.map .no-gutter{
+    padding: 0;
+    margin: 0;
+    height: 350px;
+}
+.map iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+ /*-------------------------------------------------------------------------------------
+    404 Page
+---------------------------------------------------------------------------------------*/
+.error{
+    padding: 68px 0 136px;
+}
+.error-wrapper{
+    text-align: center;
+}
+.error-wrapper h5,
+.error-wrapper h4{
+    color: #223645;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.error-wrapper h5{
+    font-size: 180px;
+    margin-bottom: 22px;
+}
+.error-wrapper h4{
+    font-size: 30px;
+    margin-bottom: 49px;
+}
+
+
+ /*-------------------------------------------------------------------------------------
+    FAQ Page
+---------------------------------------------------------------------------------------*/
+.faq-page{
+    padding: 68px 0 136px;
+}
+.card{
+    border-left: 0;
+    border-right: 0;
+}
+.card:first-child {
+    border-top: 0;
+}
+.card:last-child {
+    border-bottom: 0;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+}
+.card-header h2{
+    text-decoration: none;
+}
+.card-header h2 button{
+    color: #223645;
+    font-weight: 600;
+    font-size: 22px;
+}
+.content .card-body p{
+    color: #647589;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+.btn-link {
+    color: #223645;
+}
+ .btn-link:hover{
+    color: #FF6036;
+    text-decoration: none;
+}
+.btn.btn-link.btn-block.text-left{
+    text-decoration: none;
+    color: #FF6036;
+}
+.btn.btn-link.btn-block.text-left.collapsed {
+    color: #223645;
+}
+
+/*-------------------------------------------------------------------------------------
+       Policy page
+---------------------------------------------------------------------------------------*/
+.policy-page{
+    padding: 68px 0 136px;
+}
+.policy-page h2, .terms-page h2, .terms-list-wrapper{
+    font-size: 42px;
+    padding-left: 80px;
+    font-weight: 700;
+    line-height: 62px;
+    text-transform: capitalize;
+    color: #223645;
+}
+.p-l-r{
+    margin-bottom: 65px;
+}
+.p-l-r p{
+    font-size: 15px;
+    padding-right: 100px;
+}
+.policy-single h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #223645;
+    margin-bottom: 10px;
+}
+.policy-single p{
+    font-size: 15px;
+    font-family: "inter", sans-serif;
+    color: #647589;
+}
+.p-l-r-100{
+    padding: 0 80px;
+}
+.margin-b-30{
+    margin-bottom: 30px;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       terms page
+---------------------------------------------------------------------------------------*/
+.terms-page{
+    padding: 68px 0 136px;
+}
+.terms-page h2{
+    padding-right: 50px;
+    color: #223645;
+    font-size: 42px;
+}
+.terms-page .p-l-r p{
+    padding-left: 24px;
+}
+.para-wrapper{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    margin-top: 29px;
+}
+.para-wrapper .line{
+    height: 40px;
+    width: 7px;
+    background: #FF6036;
+}
+.terms-list-wrapper{
+    display: flex;
+    align-items: baseline;
+    margin-top: 35px;
+}
+.terms-list-wrapper h6{
+    color: #FF6036;
+    font-weight: 700;
+}
+.terms-list-wrapper p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.p-m-b{
+    margin-top: 65px;
+}
