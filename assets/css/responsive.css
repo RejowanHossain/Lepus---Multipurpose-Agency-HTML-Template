@@ -4,6 +4,7 @@
     .responsive-navigation{
         display: none;
     }
+
 }
 
 
@@ -153,6 +154,15 @@
     .service-details .service-list-wrapper .list p{
         font-size: 14px;
     }
+    .responsive-top-nopadding{
+        margin-top: 0;
+    }
+
+    /* Portfolio Details */
+    .portfolio-meta-wrapper{
+        display: none;
+    }
+    
  
     
 }
@@ -321,6 +331,24 @@
     .service-details .service-list-wrapper .list p{
         font-size: 14px;
     }
+    .responsive-top-nopadding{
+        margin-top: 0;
+    }
+    /* Portfolio Details */
+    .portfolio-meta-wrapper{
+        display: none;
+    }
+    /* Privacy policy page */
+    .policy-page h2, .terms-page h2, .terms-list-wrapper{
+        padding-left: 0;
+    }
+    .p-l-r p {
+        padding-right: 0;
+    }
+    .para-wrapper{
+        padding-left: 0;
+    }
+ 
     
 }
 
@@ -531,6 +559,21 @@
         font-size: 12px ;
     }
     .newsletter{
+        display: none;
+    }
+
+    /* Blog Details Page */
+    .blog-content-wrapper h2 {
+        font-size: 21px;
+    }
+    .bottom-meta {
+        display: none;
+    }
+    .blog-details-quote p{
+        font-size: 18px;
+        padding: 0;
+    }
+    .name-meta-info .date{
         display: none;
     }
 }
@@ -1153,6 +1196,30 @@
     .service-details .service-quote{
         padding: 30px;
     }
+
+    /* Blog Details Page */
+    .bottom-meta {
+        display: none;
+    }
+    .blog-content-wrapper h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    /*Contact Page */
+
+    .responsive-top-nopadding{
+        margin-top: 0;
+    }
+
+    /* Portfolio Details page */
+    .portfolio-details-img img{
+        width: 100%;
+    }
+
+    /* Error page */
+    .error-wrapper h5 {
+        font-size: 150px;
+    }
 }
 
 
@@ -1330,4 +1397,66 @@
     .service-details .service-quote{
         padding: 20px;
     }
+
+    /* Blog Details Page */
+    .blog-details-quote p {
+        padding: 0 20px;
+    }
+
+    /*Contact Page */
+
+    .responsive-top-nopadding{
+        margin-top: 0;
+    }
+
+    /* Portfolio Details page */
+    .portfolio-details-img img{
+        width: 100%;
+    }
+     /* Privacy policy page */
+     .policy-page h2, .terms-page h2, .terms-list-wrapper{
+        padding-left: 0;
+    }
+    .p-l-r p {
+        padding-right: 0;
+    }
+    .para-wrapper{
+        padding-left: 0;
+    }
+}
+
+
+@media (min-width:100px) and (max-width: 1100px){
+    .blogs-area{
+        padding-top: 0;
+        margin-bottom: 100px;
+    }
+    .contact-page-hero{
+        margin-bottom: 100px;
+    }
+    .contacts{
+        margin-top: 0;
+    }
+    .contacts form input {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .top-m{
+        margin-top: 30px;
+    }
+    .case-studies{
+        padding: 0;
+    }
+    .testi-img img{
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }
+    .portfolio-details{
+        padding-top: 0;
+    }
+    .error,.faq-page, .policy-page,.terms-page{
+        padding: 0 0 50px;
+    }
+    
 }
