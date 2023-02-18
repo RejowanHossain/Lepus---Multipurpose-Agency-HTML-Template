@@ -2024,10 +2024,14 @@ ul.slick-dots li button{
     padding-right: 144px;
     margin-bottom: 34px;
 }
-.home-two-hero .hero-text-content .home-two-cta{
+.home-two-hero .hero-text-content .home-two-cta,
+.home-two-contact .contact-wrapper .home-two-cta,
+.news-wrapper .home-two-cta{
     display: inline-block;
 }
-.home-two-hero .hero-text-content .home-two-cta a{
+.home-two-hero .hero-text-content .home-two-cta a,
+.home-two-contact .contact-wrapper .home-two-cta a,
+.news-wrapper .home-two-cta a{
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     color: #223645;
@@ -2037,11 +2041,14 @@ ul.slick-dots li button{
     position: relative;
     z-index: 9999;
 }
-.home-two-hero .hero-text-content .home-two-cta iconify-icon{
+.home-two-hero .hero-text-content .home-two-cta iconify-icon,
+.home-two-contact .contact-wrapper .home-two-cta iconify-icon, .news-wrapper .home-two-cta iconify-icon{
     margin-left: 10px;
     font-size: 20px;
 }
-.home-two-hero .hero-text-content .home-two-cta a::before{
+.home-two-hero .hero-text-content .home-two-cta a::before,
+.home-two-contact .contact-wrapper .home-two-cta a::before,
+.news-wrapper .home-two-cta a::before{
     content: "";
     position: absolute;
     right: -7px;
@@ -2094,7 +2101,8 @@ ul.slick-dots li button{
     background: url('../images/home-2-help-shape.png') no-repeat right bottom;
     background-size: auto;
 }
-.help .fl-center{
+.help .fl-center,
+.home-two-news .fl-center{
     display: flex;
     align-items: center;
 }
@@ -2154,7 +2162,8 @@ ul.slick-dots li button{
     padding: 68px 0;
 }
 .home-two-workflow .section-title,
-.how-it-works .section-title{
+.how-it-works .section-title,
+.home-two-testi .section-title{
     text-align: center;
 }
 .home-two-workflow .single-workflow{
@@ -2196,7 +2205,7 @@ ul.slick-dots li button{
 }
 
 /*-------------------------------------------------------------------------------------
-       Home-two How Ot Works
+       Home-two How It Works
 ---------------------------------------------------------------------------------------*/
 .how-it-works{
     padding: 68px 0;
@@ -2262,4 +2271,150 @@ ul.slick-dots li button{
     font-size: 14px;
     line-height: 190%;
     color: #223645;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-two Testimonials
+---------------------------------------------------------------------------------------*/
+.home-two-testi{
+    padding: 68px 0 ;
+    background: url('../images/home-two-testi-shape.png') no-repeat center center;
+    background-size: contain;
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper{
+    text-align: center;
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper .client-info{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper .client-info .client-img img{
+    position: relative;
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper .client-info .quote{
+    position: absolute;
+    background: #FFC569;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+    right: 46%;
+    top: 10%;
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper p{
+    padding: 0 9%;
+    font-size: 19px;
+    line-height: 190%;
+    text-align: center;
+    color: #223645;
+    
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper .name{
+    margin-bottom: 50px;
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper .name h5{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: #223645;
+}
+.home-two-testi .home-two-testi-slider .testi-wrapper .name p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #223645;
+}
+.home-two-testi .testimonial-slider{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home-two Contacts
+---------------------------------------------------------------------------------------*/
+.home-two-contact{
+    position: relative;
+    margin: 68px 0;
+}
+.home-two-contact .shape-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.home-two-contact .shape-2{
+    position: absolute;
+    right: 20%;
+    top: 12%;
+}
+
+.home-two-contact .contact-wrapper{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    padding: 84px 56px;
+}
+.home-two-contact .section-title{
+    margin-bottom: 29px;
+}
+.contact-wrapper form input{
+    margin-bottom: 62px;
+}
+.contact-wrapper form input,
+.contact-wrapper form textarea{
+    background: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #223645;
+    width: 100%;
+    padding: 19px 0;
+}
+.contact-wrapper form textarea{
+    margin-bottom: 70px;
+}
+.contact-wrapper form input::placeholder{
+    color: #223645;
+}
+.contact-wrapper .form-brand{
+    margin-top: 70px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-two Newsletter
+---------------------------------------------------------------------------------------*/
+.home-two-news{
+    background: url('../images/home-2-news-shape.png') no-repeat center center;
+    background-size: cover;
+    padding: 83px 0;
+}
+.home-two-news .section-title{
+    margin-bottom: 0;
+}
+.home-two-news .section-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+}
+.news-wrapper form input{
+    border: 0;
+    width: 536px;
+    padding: 25px;
+    position: relative;
+}
+.fl-end{
+    display: flex;
+    justify-content: end;
+}
+.news-wrapper .home-two-cta{
+    position: absolute;
+    right: 6%;
+    top: 36%;
 }
