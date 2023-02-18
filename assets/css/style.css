@@ -2342,7 +2342,7 @@ ul.slick-dots li button{
 ---------------------------------------------------------------------------------------*/
 .home-two-contact{
     position: relative;
-    margin: 68px 0;
+    margin: 68px 0 136px;
 }
 .home-two-contact .shape-1{
     position: absolute;
@@ -2393,6 +2393,7 @@ ul.slick-dots li button{
     background: url('../images/home-2-news-shape.png') no-repeat center center;
     background-size: cover;
     padding: 83px 0;
+    margin-top: 68px;
 }
 .home-two-news .section-title{
     margin-bottom: 0;
