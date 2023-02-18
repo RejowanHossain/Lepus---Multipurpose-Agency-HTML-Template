@@ -398,7 +398,7 @@ p {
     transition: all 0.4s ease-out 0s;
     border-top: 5px solid #FF6036;
     box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
-    z-index: 99;
+    z-index: 9999999;
 }
 
 .main-menu ul li ul.submenu li{
@@ -1953,4 +1953,313 @@ ul.slick-dots li button{
 }
 .p-m-b{
     margin-top: 65px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home page Two
+---------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------
+       Home-two header
+---------------------------------------------------------------------------------------*/
+.home-two-header{
+    position: inherit;
+}
+.home-two-header .main-menu .user-cta a{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.home-two-header .main-menu ul li.user-cta ul.submenus{
+    width: 300px;
+    padding: 20px 20px;
+    top: 290%;
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    right: -50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    border-top: 5px solid #FF6036;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+    z-index: 99;
+}
+.main-menu ul li.user-cta ul.submenus.show-input{
+    visibility: visible;
+    opacity: 1;
+}
+.home-two-header .main-menu ul li.user-cta ul.submenus li input{
+    width: 100%;
+    border: 0.2px solid #bbc9da;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home-two Hero
+---------------------------------------------------------------------------------------*/
+.home-two-hero{
+    padding: 93px 0 68px;
+    background: url('../images/home-2-hero-bg.png') no-repeat top center;
+    background-size: cover;
+    position: relative;
+    z-index: 99;
+}
+.home-two-hero .hero-text-content h1{
+    font-size: 72px;
+    color: #223645;
+    font-weight: 700;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+.home-two-hero .hero-text-content p{
+    font-size: 15px;
+    color: #223645;
+    line-height: 180%;
+    padding-right: 144px;
+    margin-bottom: 34px;
+}
+.home-two-hero .hero-text-content .home-two-cta{
+    display: inline-block;
+}
+.home-two-hero .hero-text-content .home-two-cta a{
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #223645;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+}
+.home-two-hero .hero-text-content .home-two-cta iconify-icon{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.home-two-hero .hero-text-content .home-two-cta a::before{
+    content: "";
+    position: absolute;
+    right: -7px;
+    bottom: -20px;
+    background: #FF8363;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    z-index: -1;
+}
+.home-two-hero .hero-text-content .left-img{
+    margin-top: 145px;
+}
+.home-two-hero .right-img{
+    margin-right: -88px;
+    display: flex;
+    justify-content: end;
+}
+.home-two-hero .relative-div{
+    position: absolute;
+    left: 36%;
+    top: 24%;
+    z-index: -1;
+}
+.home-two-hero .center-img{
+    position: relative;
+}
+.home-two-hero .center-img::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #223645;
+    opacity: .3;
+    height: 100%;
+    width: 100%;
+}
+.home-two-play{
+    left: 56%;
+    top: 43%;
+    z-index: 999999999;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home-two Help
+---------------------------------------------------------------------------------------*/
+.help{
+    padding: 68px 0;
+    background: url('../images/home-2-help-shape.png') no-repeat right bottom;
+    background-size: auto;
+}
+.help .fl-center{
+    display: flex;
+    align-items: center;
+}
+.help-content{
+    background: #FAF0EE;
+    padding: 70px 44px;
+}
+.help-content h4{
+    font-size: 38px;
+    color: #223645;
+    line-height: 140%;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+.help-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+    margin: 30px 0;
+}
+.help-content p:last-child{
+    margin: 16px 0;
+}
+.help-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-help ul li,
+.right-help ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.left-help ul li iconify-icon,
+.right-help ul li iconify-icon {
+    color: #fff;
+    font-size: 25px;
+    background: #FF8363;
+    border-radius: 50%;
+}
+.left-help ul li span,
+.right-help ul li span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+    font-family: "Poppins",sans-serif;
+    margin-left: 10px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-two Workflow
+---------------------------------------------------------------------------------------*/
+.home-two-workflow{
+    padding: 68px 0;
+}
+.home-two-workflow .section-title,
+.how-it-works .section-title{
+    text-align: center;
+}
+.home-two-workflow .single-workflow{
+    background: #fff;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    padding: 48px 19px;
+}
+.home-two-workflow .single-workflow iconify-icon{
+    background: #DAFBFE;
+    color: #34DEEB;
+    font-size: 36px;
+    padding: 14px;
+    margin-bottom: 20px;
+}
+.home-two-workflow .single-workflow iconify-icon.purple{
+    background: #E4E7FF;
+    color: #2177D8;
+}
+.home-two-workflow .single-workflow iconify-icon.red{
+    background: #FEE3E6;
+    color: #FB5869;
+}
+.home-two-workflow .single-workflow iconify-icon.gray{
+    background: #F4F7FC;
+    color: #647589;
+}
+.home-two-workflow .single-workflow h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #223645;
+    margin-bottom: 7px;
+}
+.home-two-workflow .single-workflow p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: #647589;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-two How Ot Works
+---------------------------------------------------------------------------------------*/
+.how-it-works{
+    padding: 68px 0;
+}
+.how-it-works .fl-center{
+    display: flex;
+    align-items: center;
+}
+.how-works-content h4{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 140%;
+    color: #223645;
+    margin-bottom: 20px;
+}
+.how-works-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+    margin-bottom: 12px
+}
+.how-works-content p:last-child{
+    margin-bottom: 0
+}
+.works-badges{
+    position: relative;
+    z-index: 999;
+}
+.works-badges img{
+    position: absolute;
+    top: 0;
+    right: -10%;
+}
+
+.single-badge{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    padding: 28px 61px;
+    border-left: 4px solid #FF8363;
+    margin-bottom: 35px;
+    width: 520px;
+}
+.single-badge:last-child{
+    margin-bottom: 0;
+}
+.single-badge.two{
+    border-left: 4px solid #FFC569;
+    margin-left: 30px;
+}
+.single-badge.three{
+    border-left: 4px solid #3C73C7;
+}
+.works-badges .single-badge h6{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+    color: #223645;
+    margin-bottom: 16px;
+}
+.works-badges .single-badge p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: #223645;
 }

@@ -10,9 +10,9 @@
             Isotop filter course 
         ----------------------------------------------------*/
 
-        // $("#cta-input").click(function(){
-        //     $("#show-hide-submenu").toggleClass('show-input');
-        // });
+        $("#cta-input").click(function(){
+            $("#show-hide-submenu").toggleClass('show-input');
+        });
 
         // init Isotope
         var $grid = $('.port-filter').isotope({
