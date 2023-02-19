@@ -2102,7 +2102,8 @@ ul.slick-dots li button{
     background-size: auto;
 }
 .help .fl-center,
-.home-two-news .fl-center{
+.home-two-news .fl-center,
+.home-3-faq .fl-center{
     display: flex;
     align-items: center;
 }
@@ -2418,4 +2419,529 @@ ul.slick-dots li button{
     position: absolute;
     right: 6%;
     top: 36%;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-Three Topbar
+---------------------------------------------------------------------------------------*/
+.home-3-topbar{
+    background: #223645;
+}
+.home-3-topbar .fl-center,
+.left-topbar,
+.top-phone,
+.top-mail,
+.right-topbar,
+.topbar-menu ul,
+.topbar-social ul{
+    display: flex;
+    align-items: center;
+}
+.top-phone iconify-icon,
+.top-mail iconify-icon{
+    color: #fff;
+    margin-right: 10px;
+}
+.top-phone a, .top-mail a{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+.top-phone{
+    margin-right: 28px;
+}
+.topbar-menu ul li{
+    margin-right: 20px;
+}
+.topbar-menu ul li:last-child{
+    margin-right: 0;
+}
+.topbar-menu ul li a{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+.topbar-menu ul li a:hover{
+    color: #FF6036;
+}
+.topbar-social{
+    margin-left: 33px;
+}
+.topbar-social ul li{
+    margin-right: 18px;
+}
+.topbar-social ul li:last-child{
+    margin-right: 0;
+}
+.topbar-social ul li a{
+    color: #fff;
+}
+.home-3-btn{
+    background: #FF6036;
+    padding: 17px 39px;
+    margin-left: 20px;
+    display: inline-block;
+    transition: .3s linear all;
+}
+.home-3-btn a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.home-3-btn:hover{
+    background: #ff734d;
+}
+/*-------------------------------------------------------------------------------------
+       Home-Three Header
+---------------------------------------------------------------------------------------*/
+.home-3-header{
+    border-bottom: .2px solid rgba(100, 117, 137, .2)
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home-Three Hero
+---------------------------------------------------------------------------------------*/
+.home-3-hero{
+    border-bottom: .2px solid rgba(100, 117, 137, .2);
+    background: url('../images/home-3-hero-bg.png') no-repeat center center;
+    background-size: cover;
+}
+.home-3-hero .pl-none{
+    padding-left: 0;
+}
+.home-3-hero-content{
+    padding-top: 91px;
+}
+.home-3-hero-img{
+    padding-top: 84px;
+}
+.home-3-hero .slide-up{
+    margin-top: -15%;
+    padding-bottom: 58px;
+}
+.home-3-hero-content h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 135%;
+    text-transform: capitalize;
+    color: #223645;
+    margin-bottom: 23px;
+    position: relative;
+}
+.home-3-hero-content p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: #223645;
+    margin-bottom: 33px;
+}
+.home-3-hero-content .home-3-btn{
+    margin-left: 0;
+}
+.home-3-hero-content .shield{
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    top: 24%;
+}
+.hero-side-content{
+    border-left: .2px solid rgba(100, 117, 137, .2);
+    padding-left: 50px;
+    padding-top: 154px;
+}
+.hero-side-content h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #223645;
+    margin-bottom: 20px;
+}
+
+.hero-side-content span{
+    color: #FF6036;
+}
+.hero-side-content p,.hero-stat p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    text-transform: lowercase;
+    color: #223645;
+    margin-bottom: 32px;
+}
+.hero-stat h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 160%;
+    text-transform: lowercase;
+    color: #223645;
+}
+.hero-stat p.mb-none{
+    margin-bottom: 0;
+}
+.home-3-box{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    padding: 40px 17px;
+    transition: .3s linear all;
+}
+.home-3-box:hover{
+    background: #F0E5CF;
+}
+.home-3-box.bg-pale{
+    background: #F0E5CF;
+}
+.home-3-box h6{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #223645;
+    margin-bottom: 12px;
+}
+.home-3-box p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: #223645;
+    margin-bottom: 22px;
+}
+.home-3-box a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 190%;
+    letter-spacing: 0.115em;
+    color: #FF6036;
+    display: flex;
+    align-items: center;
+}
+.home-3-box iconify-icon{
+    font-size: 20px;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home-Three About
+---------------------------------------------------------------------------------------*/
+.home-3-about{
+    background: url('../images/home-3-about.png') no-repeat center center;
+    background-size: cover;
+    padding: 135px 0;
+}
+.home-3-about .home-3-btn{
+    margin-left: 0;
+    margin-top: 37px;
+}
+.home-3-abt-content h3{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 140%;
+    color: #223645;
+    margin-bottom: 20px;
+}
+.home-3-abt-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+    border-left: 3px solid #FF6036;
+    margin-bottom: 25px;
+    padding-left: 33px;
+}
+.home-3-abt-content p:last-child{
+    margin-bottom: 0;
+}
+.calculator{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+}
+.calc-top{
+    padding: 65px 42px;
+}
+.calculator h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #223645;
+    margin-bottom: 18px;
+}
+.calculator p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    color: #223645;
+    margin-bottom: 48px;
+    padding-right: 33%;
+}
+.calculator span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #223645;
+    display: block;
+    margin-bottom: 16px;
+}
+.calculator h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #223645;
+}
+.calculator input.form-range{
+    width: 100%;
+}
+.calc-bottom{
+    display: flex;
+}
+.calc-left{
+    background: #FAF0EE;
+    padding: 23px 42px;
+}
+.calc-right{
+    background: #EDF7FB;
+    padding: 23px 42px;
+}
+.calc-left h5,
+.calc-right h5{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 180%;
+    color: #223645;
+}
+.calc-left p,
+.calc-right p{
+    margin-bottom: 0;
+    padding-right: 0;
+}
+input[type="range"]::-webkit-slider-runnable-track{
+    background-color: #FF6036;
+    height: 5px;
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+    background-color: #FF6036; 
+  }
+  input[type="range"]::-moz-range-track {  
+    background-color: #ffc6b8;
+  }
+  /* IE*/
+  input[type="range"]::-ms-fill-lower {
+    background-color: #FF6036; 
+  }
+  input[type="range"]::-ms-fill-upper {  
+    background-color: #ffc6b8;
+  }
+
+  /*-------------------------------------------------------------------------------------
+       Home-Three Services
+---------------------------------------------------------------------------------------*/
+.home-3-service{
+    background: url('../images/home-3-service-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 135px 0;
+    margin-top: 68px;
+}
+.home-3-service-content h4{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 140%;
+    color: #223645;
+}
+.home-3-service-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+    margin-top: 20px;
+    border-left: 3px solid #FF6036;
+    padding-left: 45px;
+}
+.home-3-service .home-3-box.bg-pale{
+    background: #F0E5CF;
+}
+.home-3-service .home-3-box{
+    padding: 56px 34px;
+    background: #F7F7F7;
+}
+.home-3-service .home-3-box:hover{
+    background: #F0E5CF;
+}
+.home-3-service .mt-30{
+    margin-top: 30px;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Three Charts
+---------------------------------------------------------------------------------------*/
+.home-3-charts{
+    background: url('../images/home-3-charts-bg.png') no-repeat center center;
+    background-size: cover;
+    margin: 136px 0
+}
+.charts-wrapper h4{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 140%;
+    color: #223645;
+    margin-bottom: 20px;
+}
+.charts-wrapper p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+    margin-bottom: 31px;
+}
+.charts-list{
+    display: flex;
+}
+.chart-left .top,
+.chart-right .top{
+    display: flex;
+    align-items: center;
+}
+.chart-left iconify-icon,
+.chart-right iconify-icon{
+    background: #F0E5CF;
+    font-size: 15px;
+    border-radius: 50%;
+    color: #FF6036;
+    padding: 8px;
+}
+.chart-left span,
+.chart-right span{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #223645;
+    margin-left: 14px;
+}
+.chart-right{
+    margin-left: 50px;
+}
+.chart-left .mt,
+.chart-right .mt{
+    margin-top: 30px;
+}
+.chart-img-wrapper img{
+    width: 100%;
+}
+.home-3-charts .fl-center,
+.home-3-testimonial .fl-center{
+    display: flex;
+    align-items: center;
+}
+
+
+  /*-------------------------------------------------------------------------------------
+       Home-Three Testimonials
+---------------------------------------------------------------------------------------*/
+.home-3-testimonial{
+    background: url('../images/home-3-testi-bg.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 136px;
+}
+.home-3-testimonial .charts-wrapper p{
+    margin-bottom: 0;
+}
+.home-3-testi-wrapper{
+    background: #F7F7F7;
+    padding: 50px 54px;
+    margin-bottom: 36px;
+}
+.home-3-testi-wrapper p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 190%;
+    color: #223645;
+    padding: 0 30px;
+}
+.home-3-testi-wrapper .client-meta{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    margin-top: 23px;
+}
+.home-3-testi-wrapper .client-meta .name{
+    margin-left: 12px;
+}
+.home-3-testi-wrapper .client-meta .name p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #223645;
+    padding: 0;
+}
+.home-3-testi-wrapper .client-meta .name .star ul{
+    display: flex;
+}
+.home-3-testi-wrapper .client-meta .name .star ul li iconify-icon{
+    color: #DD963C;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Three Testimonials
+----------------------------------------------
+-----------------------------------------*/
+.home-3-faq{
+    background: url('../images/home-3-faq-bg.png') no-repeat center center;
+    background-size: cover;
+    padding: 135px 0;
+    margin-bottom: 136px;
+}
+.home-3-faq .charts-wrapper p{
+    padding-right: 74px;
+}
+.home-3-faq .card{
+    background: none;
+}
+.home-3-faq .card .card-header h2 button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #223645;
+    background: none;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Three Brands
+----------------------------------------------
+-----------------------------------------*/
+.home-3-brands{
+    margin-bottom: 136px;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Three Newsletter
+----------------------------------------------
+-----------------------------------------*/
+.home-3-news{
+    background: #f7f7f7;
+    padding: 83px 0;
+}
+.home-3-news .news-wrapper input{
+    position: relative;
+}
+.home-3-news .news-wrapper .home-3-btn{
+    position: absolute;
+    right: 4%;
+    bottom: 12%;
 }
