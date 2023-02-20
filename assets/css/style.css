@@ -2999,7 +2999,8 @@ input[type="range"]::-moz-range-progress {
     align-items: center;
     margin-top: 42px;
 }
-.home-4-hero .hero-txt-wrapper .hero-txt-bottom .home-4-btn a{
+.home-4-hero .hero-txt-wrapper .hero-txt-bottom .home-4-btn a,
+.home-4-newsletter form .home-4-btn a{
     font-family: 'Quicksand',sans-serif;
     font-weight: 700;
     font-size: 20px;
@@ -3007,6 +3008,8 @@ input[type="range"]::-moz-range-progress {
     text-decoration-line: underline;
     text-transform: capitalize;
     color: #FF6036;
+    display: flex;
+    align-items: center;
 }
 .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
     font-family: 'Quicksand',sans-serif;
@@ -3388,4 +3391,83 @@ input[type="range"]::-moz-range-progress {
 .home-4-team .home-4-team-slider {
     display: flex;
     justify-content: center;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Blogs
+----------------------------------------------
+-----------------------------------------*/
+.home-4-blogs{
+    margin: 68px 0;
+}
+.home-4-blog-meta p.brand{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 120%;
+    color: #223645;
+}
+.home-4-blog-meta p:last-child{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 120%;
+    color: #FF6036;
+}
+.home-4-blog-content a{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #223645;
+}
+.home-4-blog-content p{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+    text-transform: lowercase;
+    color: #223645;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Brands
+----------------------------------------------
+-----------------------------------------*/
+.home-4-brands{
+    padding: 68px 0;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Newsletter
+----------------------------------------------
+-----------------------------------------*/
+.home-4-newsletter{
+    margin: 68px 0 136px 0;
+}
+.news-bg-4{
+    background: #FFFAF9;
+    padding: 100px 0;
+    border-radius: 18px;
+}
+.home-4-newsletter form input{
+    width: 100%;
+    padding: 24px 40px;
+    border-radius: 36px;
+    border: 1px solid #FF6036;
+    position: relative;
+}
+.home-4-newsletter form .home-4-btn{
+    position: absolute;
+    right: 6%;
+    bottom: 35%;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Footer
+----------------------------------------------
+-----------------------------------------*/
+.footer-top-border{
+    border-top: 1px solid rgba(100, 117, 137, .2);
 }
