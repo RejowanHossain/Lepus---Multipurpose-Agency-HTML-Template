@@ -27,7 +27,7 @@ footer area
     default css
 ---------------------------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
 
 /*-------------------------------------------------------------------------------------
     font-face css
@@ -2944,4 +2944,448 @@ input[type="range"]::-moz-range-progress {
     position: absolute;
     right: 4%;
     bottom: 12%;
+}
+
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Newsletter
+----------------------------------------------
+-----------------------------------------*/
+.home-4-header {
+    top: 49px;
+}
+.home-4-header-bg{
+    background-color: #fff;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    border-radius: 14px;
+    padding: 0 28px;
+}
+.home-4-hamburger{
+    background: #FFF1EF;
+    border-radius: 8px;
+}
+.home-4-hamburger iconify-icon{
+    color: #223645;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Newsletter
+----------------------------------------------
+-----------------------------------------*/
+.home-4-hero{
+    background: url('../images/home-4-hero-bg.png') no-repeat right bottom;
+    background-size: contain;
+    padding: 279px 0 71px 0;
+}
+.home-4-hero .hero-txt-wrapper h1{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #223645;
+}
+.home-4-hero .hero-txt-wrapper h1 span{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FF6036;
+}
+.home-4-hero .hero-txt-wrapper .hero-txt-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+}
+.home-4-hero .hero-txt-wrapper .hero-txt-bottom .home-4-btn a{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FF6036;
+}
+.home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 190%;
+    text-transform: lowercase;
+    color: #223645;
+    max-width: 500px;
+    margin-right: -21%;
+}
+
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Feature
+----------------------------------------------
+-----------------------------------------*/
+.home-4-feature{
+    background: #FFFCFB;
+    background-size: cover;
+    padding: 135px 0;
+    margin-top: 65px;
+    position: relative;
+    z-index: 999;
+    margin-bottom: 68px;
+}
+.feat-shape{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.feat-shape img{
+    width: 100%;
+}
+.home-4-sec-title{
+    margin-bottom: 65px;
+}
+.home-4-sec-title h5{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 143%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF6036;
+}
+.home-4-sec-title h2{
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #223645;
+}
+
+.feat-icon{
+    margin-bottom: 18px;
+}
+.single-feat{
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 7px 55px rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    padding: 64px 32px;
+}
+.single-feat h4{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #223645;
+}
+.single-feat p{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 190%;
+    color: #647589;
+    margin-top: 10px;
+}
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Showcase
+----------------------------------------------
+-----------------------------------------*/
+.home-4-showcase{
+    padding: 68px 0;
+}
+.home-4-showcase .p-rel{
+    background: url('../images/home-4-showcase-bg.png') no-repeat center center;
+}
+
+.home-4-showcase .fl-center{
+    display: flex;
+    align-items: center;
+}
+.single-count{
+    background: #FFFFFF;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    border-radius: 4px;
+    padding: 63px 30px;
+    text-align: center;
+}
+.single-count h4{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 120%;
+    color: #223645;
+}
+.single-count p{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 160%;
+    color: #223645;
+}
+.show-img{
+    margin-left: 25px;
+}
+.single-count.m-t-3{
+    margin-top: 30px;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-Four Case
+----------------------------------------------
+-----------------------------------------*/
+.home-4-case{
+    margin: 68px 0;
+}
+.single-case-4{
+    position: relative;
+    margin: 68px 0;
+}
+.single-case-4:hover .hover-state{
+    visibility: visible;
+    opacity: 1;
+}
+.home-4-case .fl-center{
+    display: flex;
+    align-items: center;
+}
+.single-case-4 img{
+    width: 100%;
+}
+.single-case-4 .hover-state{
+    background: #FF6036;
+    width: 300px;
+    border-bottom-left-radius: 14px;
+    padding: 28px 53px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s linear all;
+}
+.single-case-4 .hover-state h5{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.single-case-4 .hover-state a{
+    font-family: 'Quicksand';;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-Four Awards
+----------------------------------------------
+-----------------------------------------*/
+.home-4-awards{
+    margin: 68px 0;
+}
+.home-4-awards .home-4-sec-title h2{
+    padding: 0 20px;
+}
+.home-4-awards .fl-center{
+    display: flex;
+    align-items: center;
+}
+.home-4-awards .mt-30{
+    margin-bottom: 30px;
+}
+.single-award-list{
+    display: flex;
+    margin-bottom: 30px;
+}
+.single-award-list:last-child{
+    margin-bottom: 0;
+}
+.icon-cont{
+    margin-right: 14px;
+}
+.award-list-wrapper h4{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 140%;
+    color: #223645;
+}
+.award-list-wrapper p{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+}
+
+.single-achievment h4{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120%;
+    color: #FF6036;
+    margin-bottom: 12px;
+}
+.single-achievment h3{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    color: #223645;
+    margin-bottom: 11px;
+}
+.single-achievment p{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #223645;
+}
+
+
+/*-------------------------------------------------------------------------------------
+       Home-Four Video
+----------------------------------------------
+-----------------------------------------*/
+.home-4-video{
+    padding: 68px 0;
+}
+.top-heading{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    text-align: center;
+    color: #223645;
+    margin-bottom: 65px;
+}
+.home-4-video .video{
+    margin-right: 0;
+    border-radius: 18px;
+}
+.home-4-video .video::before{
+    border-radius: 18px;
+}
+.home-4-video .pulse{
+    top: 63%;
+    left: 49%;
+}
+
+/*-------------------------------------------------------------------------------------
+       Home-Four Testimonials
+----------------------------------------------
+-----------------------------------------*/
+.home-4-testi{
+    margin: 68px 0;
+}
+.single-4-testi{
+    background: #FFFFFF;
+    border: 1px solid #FF6036;
+    box-shadow: 0px 7px 55px rgba(9, 16, 20, 0.03);
+    border-radius: 15px;
+    padding: 67px 37px;
+    margin-bottom: 35px;
+}
+.single-4-testi .client-meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.single-4-testi .client-meta .meta-info{
+    display: flex;
+    align-items: center;
+}
+.testi-text{
+    margin-left: 20px;
+}
+.testi-text h5{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #223645;
+}
+.testi-text p{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF6036;
+    margin-top: 11px;
+}
+.star-rev ul{
+    display: flex;
+}
+.star-rev ul li{
+    color: #FF6036;
+}
+.single-4-testi .testi-cont{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #223645;
+    margin-top: 30px;
+}
+.home-4-testi .home-4-testimonial-slider {
+    display: flex;
+    justify-content: center;
+}
+
+
+  /*-------------------------------------------------------------------------------------
+       Home-Four Testimonials
+----------------------------------------------
+-----------------------------------------*/
+.home-4-team{
+    padding: 68px 0;
+}
+.home-4-single-team{
+    position: relative;
+    margin-bottom: 35px;
+}
+.home-4-team-slider .team-hover{
+    background: #FF6036;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: absolute;
+    width: 90%;
+    bottom: 35px;
+}
+
+.team-hover p{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.team-hover h4{
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.team-hover .social-icons ul li iconify-icon{
+    color: #fff;
+    font-size: 15px;
+}
+.home-4-team .home-4-team-slider {
+    display: flex;
+    justify-content: center;
 }
