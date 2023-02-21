@@ -2240,6 +2240,7 @@ ul.slick-dots li button{
     position: absolute;
     top: 0;
     right: -10%;
+    z-index: -1;
 }
 
 .single-badge{

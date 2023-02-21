@@ -162,7 +162,36 @@
     .portfolio-meta-wrapper{
         display: none;
     }
-    
+
+    /* home page 2 */
+    /* Header */
+    .home-two-header .user-cta{
+        display: none;
+    }
+
+    /* Home- two- hero */
+    .home-two-hero .right-img{
+        display: none;
+    }
+    .home-two-hero .relative-div {
+        top: 6%;
+    }
+    .home-two-hero .hero-text-content .left-img{
+        display: none;
+    }
+    /* home- 2 charts */
+    .help-chart img{
+        width: 100%;
+    }
+    /* home-2 wokflow */
+    .home-two-workflow .single-workflow h4{
+        font-size: 17px;
+    }
+    /* home-two how it works */
+    .single-badge.two {
+        margin-left: 0;
+    }
+
  
     
 }
@@ -347,6 +376,53 @@
     }
     .para-wrapper{
         padding-left: 0;
+    }
+
+    /* home page 2 */
+    /* Header */
+    .home-two-header .user-cta{
+        display: none;
+    }
+
+    /* Home- two- hero */
+    .home-two-hero .right-img{
+        display: none;
+    }
+    .home-two-hero .relative-div {
+        display: none;
+    }
+    .home-two-hero .hero-text-content .left-img{
+        display: none;
+    }
+    /* home- 2 charts */
+    .help-chart img{
+        width: 100%;
+    }
+    /* home-2 wokflow */
+    .home-two-workflow .single-workflow h4{
+        font-size: 17px;
+    }
+    /* home-two how it works */
+    .how-works-content{
+        margin-bottom: 30px;
+    }
+    .single-badge.two {
+        margin-left: 0;
+    }
+    .works-badges img{
+        display: none;
+    }
+
+    /* home-two newsletter */
+    .home-two-news .section-title{
+        margin-bottom: 30px;
+    }
+    .home-two-news .fl-end {
+        display: flex;
+        justify-content: center;
+    }
+    .news-wrapper .home-two-cta {
+        right: 17%;
     }
  
     
@@ -576,6 +652,103 @@
     .name-meta-info .date{
         display: none;
     }
+
+          /* home page 2 */
+    /* Header */
+    .home-two-header .user-cta{
+        display: none;
+    }
+
+    /* Home- two- hero */
+    .home-two-hero .right-img{
+        display: none;
+    }
+    .home-two-hero .relative-div {
+        display: none;
+    }
+    .home-two-hero .hero-text-content .left-img{
+        display: none;
+    }
+    .home-two-hero .hero-text-content h1 {
+        font-size: 39px;
+    }
+    .home-two-hero .hero-text-content p {
+        padding-right: 0;
+    }
+    /* home two help */
+    .help{
+        padding: 50px 0;
+    }
+    .help-content {
+        padding: 70px 13px;
+    }
+
+    .help-content h4 {
+        font-size: 31px;
+    }
+    .left-help ul li span, .right-help ul li span {
+        font-size: 12px;
+    }
+
+    /* home- 2 charts */
+    .help-chart img{
+        width: 100%;
+    }
+    /* home-2 wokflow */
+    .home-two-workflow{
+        padding-top: 0;
+    }
+    .home-two-workflow .single-workflow h4{
+        font-size: 17px;
+    }
+    /* home-two how it works */
+    .how-it-works{
+        padding-bottom: 50px;
+    }
+    .how-works-content{
+        margin-bottom: 30px;
+    }
+    .how-works-content h4 {
+        font-size: 28px;
+    }
+    .single-badge.two {
+        margin-left: 0;
+    }
+    .works-badges img{
+        display: none;
+    }
+    .single-badge {
+        padding: 23px 20px;
+        width: 296px;
+    }
+    .works-badges .single-badge h6 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    /* home- two testimonial */
+    .home-two-testi {
+        padding: 0;
+    }
+    .home-two-testi .home-two-testi-slider .testi-wrapper p{
+        padding: 0;
+    }
+    .home-two-testi .home-two-testi-slider .testi-wrapper p {
+        font-size: 14px;
+    }
+
+    /* home-teo contact */
+    .home-two-contact .contact-wrapper {
+        padding: 35px 10px;
+    }
+    .home-two-contact {
+        margin-bottom: 0;
+    }
+
+    /* home-two newsletter */
+    .home-two-news{
+        display: none;
+    }
+
 }
 
 /* small mobile */
@@ -1220,6 +1393,71 @@
     .error-wrapper h5 {
         font-size: 150px;
     }
+
+
+      /* home page 2 */
+    /* Header */
+    .home-two-header .user-cta{
+        display: none;
+    }
+
+    /* Home- two- hero */
+    .home-two-hero .right-img{
+        display: none;
+    }
+    .home-two-hero .relative-div {
+        display: none;
+    }
+    .home-two-hero .hero-text-content .left-img{
+        display: none;
+    }
+    .home-two-hero .hero-text-content h1 {
+        font-size: 58px;
+    }
+    .home-two-hero .hero-text-content p {
+        padding-right: 0;
+    }
+    /* home- 2 charts */
+    .help-chart img{
+        width: 100%;
+    }
+    /* home-2 wokflow */
+    .home-two-workflow .single-workflow h4{
+        font-size: 17px;
+    }
+    /* home-two how it works */
+    .how-works-content{
+        margin-bottom: 30px;
+    }
+    .single-badge.two {
+        margin-left: 0;
+    }
+    .works-badges img{
+        display: none;
+    }
+    .single-badge {
+        padding: 28px 28px;
+        width: 420px;
+    }
+    /* home- two testimonial */
+    .home-two-testi .home-two-testi-slider .testi-wrapper p{
+        padding: 0;
+    }
+
+    /* home-two newsletter */
+    .home-two-news .section-title{
+        margin-bottom: 30px;
+    }
+    .home-two-news .fl-end {
+        display: flex;
+        justify-content: center;
+    }
+    .news-wrapper .home-two-cta {
+        right: 7%;
+    }
+    .news-wrapper form input {
+        width: 420px;
+    }
 }
 
 
@@ -1422,6 +1660,58 @@
     }
     .para-wrapper{
         padding-left: 0;
+    }
+
+    /* home page 2 */
+    /* Header */
+    .home-two-header .user-cta{
+        display: none;
+    }
+
+    /* Home- two- hero */
+    .home-two-hero .right-img{
+        display: none;
+    }
+    .home-two-hero .relative-div {
+        display: none;
+    }
+    .home-two-hero .hero-text-content .left-img{
+        display: none;
+    }
+    /* home- 2 charts */
+    .help-chart img{
+        width: 100%;
+    }
+    /* home-2 wokflow */
+    .home-two-workflow .single-workflow h4{
+        font-size: 17px;
+    }
+    /* home-two how it works */
+    .how-works-content{
+        margin-bottom: 30px;
+    }
+    .single-badge.two {
+        margin-left: 0;
+    }
+    .works-badges img{
+        display: none;
+    }
+
+    /* home- two testimonial */
+    .home-two-testi .home-two-testi-slider .testi-wrapper p{
+        padding: 0;
+    }
+
+    /* home-two newsletter */
+    .home-two-news .section-title{
+        margin-bottom: 30px;
+    }
+    .home-two-news .fl-end {
+        display: flex;
+        justify-content: center;
+    }
+    .news-wrapper .home-two-cta {
+        right: 7%;
     }
 }
 
