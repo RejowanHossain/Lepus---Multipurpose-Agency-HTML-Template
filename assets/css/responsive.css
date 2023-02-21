@@ -192,6 +192,29 @@
         margin-left: 0;
     }
 
+    /* home-3 -header */
+    .home-3-hero-img img{
+        width: 100%;
+    }
+    .home-3-hero .slide-up {
+        margin-top: -22%;
+    }
+
+    /* home- 3 charts */
+    .chart-left span, .chart-right span {
+        font-size: 14px;
+    }
+    .charts-wrapper h4 {
+        font-size: 35px;
+    }
+    .home-3-faq .charts-wrapper p {
+        padding-right: 0;
+    }
+    /* home-3-testimonial */
+    .home-3-news-wrapper form input{
+        width: 450px;
+    }
+
  
     
 }
@@ -423,6 +446,80 @@
     }
     .news-wrapper .home-two-cta {
         right: 17%;
+    }
+
+    /* home- 3 topbar */
+    .home-3-topbar{
+        display: none;
+    }
+
+     /* home-3 -header */
+     .home-3-hero-img img{
+        width: 100%;
+    }
+    .home-3-hero .slide-up {
+        margin-top: 60px;
+    }
+    .home-3-hero-content .shield {
+        right: 72%;
+        top: 45%;
+    }
+    .home-3-hero-img{
+        display: none;
+    }
+    .hero-side-content {
+        border-left: none;
+        padding: 0;
+    }
+    .home-3-hero .pl-none {
+        padding-left: 15px;
+        margin-top: 60px
+    }
+
+    /* Home- 3 about */
+    .home-3-abt-content h3 {
+        font-size: 36px;
+    }
+
+    /* Home 3 service */
+    .home-3-service{
+        padding: 0;
+    }
+    .home-3-service .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+    .home-3-service-content p {
+        padding-left: 20px;
+    }
+
+    /* home- 3 charts */
+    .chart-left span, .chart-right span {
+        font-size: 14px;
+    }
+    .charts-wrapper{
+        display: none;
+    }
+    .charts-wrapper h4 {
+        font-size: 35px;
+    }
+    .home-3-charts {
+        margin: 50px 0;
+    }
+    .home-3-faq .charts-wrapper p {
+        padding-right: 0;
+    }
+
+    .home-3-testimonial {
+        margin-bottom: 50px;
+    }
+    /* home-3-testimonial */
+    .home-3-news-wrapper form input{
+        width: 600px;
+    }
+    .home-3-news .news-wrapper .home-3-btn {
+        position: absolute;
+        right: 11%;
+        bottom: 12%;
     }
  
     
@@ -746,6 +843,127 @@
 
     /* home-two newsletter */
     .home-two-news{
+        display: none;
+    }
+
+    /* home- 3 topbar */
+    .home-3-topbar{
+        display: none;
+    }
+
+    /* home-3 -header */
+    .home-3-hero-img img{
+        width: 100%;
+    }
+    .home-3-hero-content h1 {
+        font-size: 28px;
+      }
+    .home-3-hero .slide-up {
+        margin-top: 60px;
+    }
+    .home-3-hero-content .shield {
+        display: none;
+    }
+    .home-3-hero-img{
+        display: none;
+    }
+    .hero-side-content {
+        border-left: none;
+        padding: 0;
+    }
+    .home-3-hero .pl-none {
+        padding-left: 15px;
+        margin-top: 60px
+    }
+
+    /* Home- 3 about */
+    .home-3-about{
+        padding: 50px 0;
+    }
+    .home-3-abt-content h3 {
+        font-size: 22px;
+    }
+    .home-3-abt-content p{
+        padding-left: 15px;
+    }
+
+    .calc-top {
+        padding: 65px 0px;
+    }
+    .calculator p{
+        padding-right: 0;
+    }
+    .calc-bottom{
+        display: none;
+    }
+    
+
+    /* Home 3 service */
+    .home-3-service{
+        padding: 0;
+    }
+    .home-3-service .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+    .home-3-service-content p {
+        padding-left: 20px;
+    }
+
+    .home-3-service .home-3-box {
+        padding: 46px 19px;
+    }
+
+    /* home- 3 charts */
+    .chart-left span, .chart-right span {
+        font-size: 14px;
+    }
+    .charts-wrapper{
+        display: none;
+    }
+    .charts-wrapper h4 {
+        font-size: 35px;
+    }
+    .home-3-charts {
+        margin: 50px 0;
+    }
+    .home-3-faq .charts-wrapper p {
+        padding-right: 0;
+    }
+
+    .home-3-testimonial {
+        margin-bottom: 50px;
+    }
+    /* home-3-testimonial */
+    .home-3-testi-wrapper {
+        padding: 50px 33px;
+    }
+    .home-3-testi-wrapper p{
+        padding: 0;
+        font-size: 14px;
+    }
+    .home-3-testi-wrapper .client-meta{
+        padding: 0;
+    }
+
+    /* home -3 faq */
+    .home-3-faq {
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+    .home-3-faq .card .card-header h2 button{
+        font-size: 17px;
+    }
+    .content .card-body p{
+        font-size: 14px;
+    }
+
+    /* home-3 brands */
+    .home-3-brands{
+        display: none;
+    }
+
+    /* Home -3 newsletter */
+    .home-3-news{
         display: none;
     }
 
@@ -1458,6 +1676,95 @@
     .news-wrapper form input {
         width: 420px;
     }
+
+    /* home- 3 topbar */
+    .home-3-topbar{
+        display: none;
+    }
+
+     /* home-3 -header */
+     .home-3-hero-img img{
+        width: 100%;
+    }
+    .home-3-hero .slide-up {
+        margin-top: 60px;
+    }
+    .home-3-hero-content .shield {
+        right: 55%;
+        top: 46%;
+    }
+    .home-3-hero-img{
+        display: none;
+    }
+    .hero-side-content {
+        border-left: none;
+        padding: 0;
+    }
+    .home-3-hero .pl-none {
+        padding-left: 15px;
+        margin-top: 60px
+    }
+
+    /* Home- 3 about */
+    .home-3-abt-content h3 {
+        font-size: 36px;
+    }
+
+    /* Home 3 service */
+    .home-3-service{
+        padding: 0;
+    }
+    .home-3-service .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+    .home-3-service-content p {
+        padding-left: 20px;
+    }
+
+    /* home- 3 charts */
+    .chart-left span, .chart-right span {
+        font-size: 14px;
+    }
+    .charts-wrapper{
+        display: none;
+    }
+    .charts-wrapper h4 {
+        font-size: 35px;
+    }
+    .home-3-charts {
+        margin: 50px 0;
+    }
+    .home-3-faq .charts-wrapper p {
+        padding-right: 0;
+    }
+
+    .home-3-testimonial {
+        margin-bottom: 50px;
+    }
+    /* home-3-testimonial */
+    .home-3-testi-wrapper {
+        padding: 50px 33px;
+    }
+    .home-3-testi-wrapper p{
+        padding: 0;
+    }
+
+    /* home -3 faq */
+    .home-3-faq {
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+
+    /* home-3 brands */
+    .home-3-brands{
+        display: none;
+    }
+
+    /* Home -3 newsletter */
+    .home-3-news{
+        display: none;
+    }
+
 }
 
 
@@ -1712,6 +2019,81 @@
     }
     .news-wrapper .home-two-cta {
         right: 7%;
+    }
+
+
+     /* home- 3 topbar */
+     .home-3-topbar{
+        display: none;
+    }
+
+     /* home-3 -header */
+     .home-3-hero-img img{
+        width: 100%;
+    }
+    .home-3-hero .slide-up {
+        margin-top: 60px;
+    }
+    .home-3-hero-content .shield {
+        right: 33%;
+        top: 41%;
+    }
+    .home-3-hero-img{
+        display: none;
+    }
+    .hero-side-content {
+        border-left: none;
+        padding: 0;
+    }
+    .home-3-hero .pl-none {
+        padding-left: 15px;
+        margin-top: 60px
+    }
+
+    /* Home- 3 about */
+    .home-3-abt-content h3 {
+        font-size: 36px;
+    }
+
+    /* Home 3 service */
+    .home-3-service{
+        padding: 0;
+    }
+    .home-3-service .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+    .home-3-service-content p {
+        padding-left: 20px;
+    }
+
+    /* home- 3 charts */
+    .chart-left span, .chart-right span {
+        font-size: 14px;
+    }
+    .charts-wrapper{
+        display: none;
+    }
+    .charts-wrapper h4 {
+        font-size: 35px;
+    }
+    .home-3-charts {
+        margin: 50px 0;
+    }
+    .home-3-faq .charts-wrapper p {
+        padding-right: 0;
+    }
+
+    .home-3-testimonial {
+        margin-bottom: 50px;
+    }
+    /* home-3-testimonial */
+    .home-3-news-wrapper form input{
+        width: 600px;
+    }
+    .home-3-news .news-wrapper .home-3-btn {
+        position: absolute;
+        right: -1%;
+        bottom: 12%;
     }
 }
 
