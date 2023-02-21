@@ -215,6 +215,53 @@
         width: 450px;
     }
 
+    
+    /* home-4 hero */
+    .home-4-sec-title h2 {
+        font-size: 44px;
+    }
+    .home-4-sec-title {
+        margin-bottom: 45px;
+    }
+    .home-4-hero .hero-txt-wrapper h1{
+        font-size: 70px;
+    }
+    .home-4-hero .hero-txt-wrapper span{
+        font-size: 70px;
+    }
+
+    /* home- 4 case */
+    .single-case-4 .sm-hover-state{
+        width: 200px;
+        padding: 7px 30px;
+        border-bottom-left-radius: 7px;
+    }
+    .single-case-4 .sm-hover-state h5{
+        font-size: 14px;
+    }
+    .single-case-4 .sm-hover-state a{
+        font-size: 12px;
+    }
+
+    .top-heading{
+        margin-bottom: 0;
+    }
+
+    .home-4-testi{
+        margin-bottom: 0;
+    }
+    
+    .home-4-team{
+        padding-bottom: 0;
+    }
+    .home-4-blog-content a{
+        font-size: 20px;
+    }
+    .home-4-team-slider .team-hover{
+        width: 82%;
+    }
+
+
  
     
 }
@@ -520,6 +567,56 @@
         position: absolute;
         right: 11%;
         bottom: 12%;
+    }
+
+    /* home-4 hero */
+    .home-4-sec-title h2 {
+        font-size: 44px;
+    }
+    .home-4-sec-title {
+        margin-bottom: 45px;
+    }
+    .home-4-hero .hero-txt-wrapper h1{
+        font-size: 55px;
+    }
+    .home-4-hero .hero-txt-wrapper h1 span{
+        font-size: 55px;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        font-size: 16px
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom{
+        justify-content: start;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        margin-left: 20px;
+    }
+
+    .show-img{
+        display: none;
+    }
+
+    .home-4-awards .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+
+
+    .top-heading{
+        margin-bottom: 0;
+    }
+
+    .home-4-testi{
+        margin-bottom: 0;
+    }
+    
+    .home-4-team{
+        padding-bottom: 0;
+    }
+    .home-4-blog-content a{
+        font-size: 20px;
+    }
+    .home-4-team-slider .team-hover{
+        width: 72%;
     }
  
     
@@ -964,6 +1061,88 @@
 
     /* Home -3 newsletter */
     .home-3-news{
+        display: none;
+    }
+
+      /* home-4 hero */
+      .home-4-sec-title h2 {
+        font-size: 30px;
+    }
+    .home-4-sec-title {
+        margin-bottom: 45px;
+    }
+    .home-4-hero .hero-txt-wrapper h1{
+        font-size: 35px;
+    }
+    .home-4-hero .hero-txt-wrapper h1 span{
+        font-size: 35px;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        font-size: 16px;
+        margin-right: 0;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        margin-top: 20px;
+    }
+
+    .show-img{
+        display: none;
+    }
+
+    .home-4-awards .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+
+    .single-case-4 .hover-state {
+        background: #FF6036;
+        width: 270px;
+        border-bottom-left-radius: 4px;
+        padding: 16px 31px;
+    }
+
+
+    .home-4-video{
+        padding: 0;
+    }
+    .top-heading{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    .home-4-testi{
+        margin-bottom: 0;
+    }
+
+    .single-4-testi {
+        padding: 67px 15px;
+    }
+
+    .single-4-testi .testi-cont {
+        font-size: 15px;
+    }
+    .star-rev{
+        display: none;
+    }
+    
+    .home-4-team{
+        display: none;
+    }
+
+    
+    .home-4-blog-content a{
+        font-size: 20px;
+    }
+    .home-4-team-slider .team-hover{
+        width:77%;
+    }
+    .home-4-blogs{
+        margin-bottom: 0;
+    }
+    .home-4-newsletter{
         display: none;
     }
 
@@ -1765,6 +1944,66 @@
         display: none;
     }
 
+    
+    /* home-4 hero */
+    .home-4-sec-title h2 {
+        font-size: 44px;
+    }
+    .home-4-sec-title {
+        margin-bottom: 45px;
+    }
+    .home-4-hero .hero-txt-wrapper h1{
+        font-size: 45px;
+    }
+    .home-4-hero .hero-txt-wrapper h1 span{
+        font-size: 45px;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        font-size: 16px;
+        margin-right: 0;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        margin-top: 20px;
+    }
+
+    .show-img{
+        display: none;
+    }
+
+    .home-4-awards .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+
+
+    .top-heading{
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+
+    .home-4-testi{
+        margin-bottom: 0;
+    }
+    
+    .home-4-team{
+        padding-bottom: 0;
+    }
+    .home-4-blog-content a{
+        font-size: 20px;
+    }
+    .home-4-team-slider .team-hover{
+        width:77%;
+    }
+    .home-4-blogs{
+        margin-bottom: 0;
+    }
+    .home-4-newsletter{
+        display: none;
+    }
+
 }
 
 
@@ -2094,6 +2333,66 @@
         position: absolute;
         right: -1%;
         bottom: 12%;
+    }
+
+
+    
+    /* home-4 hero */
+    .home-4-sec-title h2 {
+        font-size: 44px;
+    }
+    .home-4-sec-title {
+        margin-bottom: 45px;
+    }
+    .home-4-hero .hero-txt-wrapper h1{
+        font-size: 55px;
+    }
+    .home-4-hero .hero-txt-wrapper h1 span{
+        font-size: 55px;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        font-size: 16px
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom{
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .home-4-hero .hero-txt-wrapper .hero-txt-bottom p{
+        margin-top: 20px;
+    }
+
+    .show-img{
+        display: none;
+    }
+
+    .home-4-awards .responsive-bottom-60{
+        margin-bottom: 60px;
+    }
+
+
+    .top-heading{
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+
+    .home-4-testi{
+        margin-bottom: 0;
+    }
+    
+    .home-4-team{
+        padding-bottom: 0;
+    }
+    .home-4-blog-content a{
+        font-size: 20px;
+    }
+    .home-4-team-slider .team-hover{
+        width: 94%;
+    }
+    .home-4-blogs{
+        margin-bottom: 0;
+    }
+    .home-4-newsletter{
+        display: none;
     }
 }
 
