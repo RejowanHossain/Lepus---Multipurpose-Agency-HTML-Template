@@ -1800,11 +1800,21 @@ ul.slick-dots li button{
 /*-------------------------------------------------------------------------------------
        team page
 ---------------------------------------------------------------------------------------*/
-.inner-team{
-    margin: 136px 0 ;
+.home-4-team.inner-team{
+    padding-bottom: 136px;
 }
 .inner-team .section-title{
     text-align: center;
+}
+.inner-team .inner-team-row .inner-team-hover{
+    bottom: 2px;
+}
+
+.inner-team .inner-team-row .h-353{
+    height: 353px;
+}
+.inner-team .mar-30{
+    margin-top: 30px;
 }
  /*-------------------------------------------------------------------------------------
     404 Page
@@ -3367,7 +3377,8 @@ input[type="range"]::-moz-range-progress {
     position: relative;
     margin-bottom: 35px;
 }
-.home-4-team-slider .team-hover{
+.home-4-team-slider .team-hover,
+.inner-team-row .inner-team-hover{
     background: #FF6036;
     display: flex;
     align-items: center;

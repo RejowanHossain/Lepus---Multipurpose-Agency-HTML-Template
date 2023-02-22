@@ -163,6 +163,23 @@
         display: none;
     }
 
+    /*************** 
+       Team Page
+    ****************/
+    .home-4-team.inner-team{
+        padding: 0 0 18px 0;
+    }
+    .inner-team-row .inner-single-team img{
+        width: 100%;
+    }
+    .inner-team .inner-team-row .inner-team-hover {
+        bottom: 0;
+        width: 88%;
+    }
+    .inner-team .inner-team-row .h-353 {
+        height: 283px;
+    }
+
     /* home page 2 */
     /* Header */
     .home-two-header .user-cta{
@@ -416,6 +433,23 @@
     }
     .inner-hero-text span a {
         font-size: 12px;
+    }
+
+    /*************** 
+       Team Page
+    ****************/
+    .home-4-team.inner-team{
+        padding: 0 0 18px 0;
+    }
+    .inner-team-row .inner-single-team img{
+        width: 100%;
+    }
+    .inner-team .inner-team-row .inner-team-hover {
+        bottom: 35px;
+        width: 92%; 
+    }
+    .inner-team .inner-team-row .h-353 {
+        height: 100%;
     }
 
     /*************** 
@@ -830,6 +864,24 @@
     }
     .newsletter{
         display: none;
+    }
+
+    /*************** 
+       Team Page
+    ****************/
+    .home-4-team.inner-team{
+        padding: 0 0 18px 0;
+        display: block;
+    }
+    .inner-team-row .inner-single-team img{
+        width: 100%;
+    }
+    .inner-team .inner-team-row .inner-team-hover {
+        bottom: 35px;
+        width: 92%;
+    }
+    .inner-team .inner-team-row .h-353 {
+        height: 100%;
     }
 
     /* Blog Details Page */
@@ -1503,6 +1555,22 @@
     }
     .comment-form input.sm{
         width: 100%;
+    }
+    /*************** 
+       Team Page
+    ****************/
+    .home-4-team.inner-team{
+        padding: 0 0 18px 0;
+    }
+    .inner-team-row .inner-single-team img{
+        width: 100%;
+    }
+    .inner-team .inner-team-row .inner-team-hover {
+        bottom: 35px;
+        width: 93%;
+    }
+    .inner-team .inner-team-row .h-353 {
+        height: 100%;
     }
     /* team page */
     .team-page .single-portfolio{
@@ -2334,6 +2402,24 @@
         right: -1%;
         bottom: 12%;
     }
+
+     /*************** 
+       Team Page
+    ****************/
+    .home-4-team.inner-team{
+        padding: 0 0 18px 0;
+    }
+    .inner-team-row .inner-single-team img{
+        width: 100%;
+    }
+    .inner-team .inner-team-row .inner-team-hover {
+        bottom: 35px;
+        width: 95%;
+    }
+    .inner-team .inner-team-row .h-353 {
+        height: 100%;
+    }
+
 
 
     
